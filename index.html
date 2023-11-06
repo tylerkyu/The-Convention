@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <div class="banner"> 
+        <p>Open seven days a week from December 13th until January 2nd!</p> 
+        <button onclick="ticpop()">Buy Tickets</button>
+    </div>
+    <div className="header">
+        <fieldset id="links1">
+            <a href="guests.html">Guests</a>
+            <a href="events.html">Events</a>
+        </fieldset>
+    </div>
+    <div class="image-container">
+        <img src="park2.png" alt="image">
+        <div class="overlay-text">
+            <h1>WELCOME TO CONEY CONVENTION<h1>
+        </div>
+    </div>
+    <div id="grid">
+        <div class="cell" id="ferris">
+            <h3>Ferris Wheel</h3>
+            <p>The Coney Convention is proud to house the largest ferris 
+                wheel in the world, reaching an astounding
+                1000 feet in elevaion!
+            </p>
+        </div>
+        <div class="cell" id="rollercoaster">
+            <h3>Rollercoaster</h3>
+            <p>The Coney Rolley Coasty is the pinnacle of entertainment! It
+                climbs to a gut-wrenching 2000 feet high before swirling down
+                the mouth of an active volcano and taking a little dip in the
+                Mariana Trench! So fun!
+            </p>
+        </div>
+        <div class="cell" id="slingshot">
+            <h3>Slingshot</h3>
+            <p>The Slippy Dippy Slingshot is the first of its kind to send users
+                straight into the stratosphere! Ticket buyers are equipped with an 
+                oxygen tank and cutting-edge space suit to support their journey
+                into the cold void!
+            </p>
+        </div>
+    </div>
+    <div class="grid"id="footer">
+        <div class="grid"id="fcol1">
+            <div class="cell"id="loc">
+                <p>Coney Island USA</p>
+            </div>
+                <div class="cell"id="adrs">
+                <p>Address: 1208 Surf Avenue, Brooklyn, NY 11224</p>
+            </div>
+        </div>
+        <div class="grid"id="fcol2">
+            <div class="cell"id="mem">
+                <button onclick="mempop()">Become a Member</button>
+            </div>
+            <div class="cell"id="don">
+                <button onclick="donpop()">Donate</button>
+            </div>
+        </div>
+        <div class="grid"id="fcol3">
+            <div class="cell" id="newst">
+                <p>Sign Up For Our Newsletter</p>
+            </div>
+            <div class="cell" id="name">
+                <form>
+                    <input type="text" placeholder="Name"id="na">
+                </form>
+            </div>
+            <div class="cell"id="email">
+                <form>
+                    <input type="text" placeholder="Email Address"id="em">
+                </form>
+            </div>
+            <div class="cell"id="signup">
+                <button onclick="alert('Thank you for signing up for our newsletter!')">Sign Up</button>
+            </div>
+        </div>  
+    </div>
+</body>
+</html>
